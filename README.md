@@ -66,12 +66,12 @@ Mục tiêu của bài toán là tìm một đường đi của quân mã trên 
    - Nếu quân mã đã đi qua tất cả các ô (`n²` bước), in ra bàn cờ với các bước đi.
    - Nếu không tìm được lời giải, in ra `"Không có nước đi thoả mãn"`.
 
-#### **Code:**
+#### c. Code:
 
 [Source Code](./main.cpp)
 
 
-### **Ưu - Nhược điểm:**
+### d. Ưu - Nhược điểm:
 
 #### **Ưu điểm:**
 - **Đơn giản và dễ hiểu**: Sử dụng quay lui với đệ quy giúp giải quyết vấn đề một cách trực quan.
