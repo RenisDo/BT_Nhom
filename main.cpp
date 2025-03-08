@@ -8,6 +8,7 @@ void mainFunc(int N, int x, int y);
 
 int main() {
     int N, x, y;
+    cout << "Nhập dữ liệu: [size] / [start_x] / [start_y]  ";
     cin >> N >> x >> y;
     mainFunc(N, x, y);
     return 0;
