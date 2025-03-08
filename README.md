@@ -163,3 +163,6 @@ Giải thích:
 -	Quân mã bắt đầu ở ô (0, 0) nhưng không có đủ các nước đi hợp lệ để tiếp tục. Khi quân mã di chuyển, nó sẽ gặp phải ngõ cụt và không thể tiếp tục đi qua các ô còn lại mà không quay lại ô đã đi qua, khi thử cả 8 hướng đi khác nhau.
 -	Từ đó, in ra màn hình " Không có nước đi thỏa mãn"
 
+## 5.Video báo cáo
+[Link Video báo cáo](https://drive.google.com/drive/folders/1XMhOBEDvf_5CZ5n36BJRdV94PKYff5PI?usp=sharing)
+
