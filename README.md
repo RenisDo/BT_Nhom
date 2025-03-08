@@ -91,7 +91,7 @@ Mục tiêu của bài toán là tìm một đường đi của quân mã trên 
 
 **Input:**
 ```
-8 0 0 (Tức là bàn cờ cỡ vừa 8x8, quân mã bắt đầu ở ô (0,0))
+8 0 0 ( Tức là bàn cờ cỡ vừa 8x8, quân mã bắt đầu ở ô (0,0) )
 ```
 
 **Output:**
@@ -108,21 +108,21 @@ Mục tiêu của bài toán là tìm một đường đi của quân mã trên 
 ```
 
 **Giải thích:**
-•	Quân mã được đặt ô (0,0)  -  tức ô xuất phát sẽ có giá trị là 0
-•	Xét tất cả 8 hướng đi thoả mãn điều kiện của quân mã
-•	Thử các tất cả các nước đi có thể từ vị trí mới này cho vào 1 list chứa cặp giá trị về số nước đi và sắp xếp tăng dần.
-•	Cho quân mã đi theo các nước đi vừa sắp xếp.
-•	Nếu tìm được đường đi tiếp theo và phù hợp, đánh dấu số bước và ô đã đi và đếm số bước, sau đó tiếp tục đệ quy để tìm nước đi tiếp theo
-•	Nếu đi đến hết bàn cờ và thoả mãn điều kiện thì bài toán kết thúc và bài toán cho mã đi hết bàn cờ hoàn thành.
-•	Nếu gặp ngõ cụt, quay lại để thử hướng đi khác và tiếp tục lặp lại quá trình trên.
-•	Nếu giải được bài toán thì in ra output là nước đi quân mã, nếu không in ra màn hình " Không có nước đi thoả mãn"
-•	Nếu thuật toán không tối ưu : có thể không tìm được lời giải trong thời gian hợp lí / hoặc thất bại
+-	Quân mã được đặt ô (0,0)  -  tức ô xuất phát sẽ có giá trị là 0
+-	Xét tất cả 8 hướng đi thoả mãn điều kiện của quân mã
+-	Thử các tất cả các nước đi có thể từ vị trí mới này cho vào 1 list chứa cặp giá trị về số nước đi và sắp xếp tăng dần.
+-	Cho quân mã đi theo các nước đi vừa sắp xếp.
+-	Nếu tìm được đường đi tiếp theo và phù hợp, đánh dấu số bước và ô đã đi và đếm số bước, sau đó tiếp tục đệ quy để tìm nước đi tiếp theo
+-	Nếu đi đến hết bàn cờ và thoả mãn điều kiện thì bài toán kết thúc và bài toán cho mã đi hết bàn cờ hoàn thành.
+-	Nếu gặp ngõ cụt, quay lại để thử hướng đi khác và tiếp tục lặp lại quá trình trên.
+-	Nếu giải được bài toán thì in ra output là nước đi quân mã, nếu không in ra màn hình " Không có nước đi thoả mãn"
+-	Nếu thuật toán không tối ưu : có thể không tìm được lời giải trong thời gian hợp lí / hoặc thất bại
 
 ### **Ví dụ 2**
 
 **Input:**
 ```
-6 2 3 (Bàn cờ cỡ 6x6, quân mã bắt đầu ở vị trí (2,3)) 
+6 2 3 ( Bàn cờ cỡ 6x6, quân mã bắt đầu ở vị trí (2,3) ) 
 ```
 
 **Output:**
@@ -136,21 +136,21 @@ Mục tiêu của bài toán là tìm một đường đi của quân mã trên 
 
 ```
 Giải thích:
-•	Quân mã bắt đầu tại ô (2, 3) - tức ô xuất phát sẽ có giá trị là 0
-•	Xét tất cả 8 hướng đi thoả mãn điều kiện của quân mã
-•	Thử các tất cả các nước đi có thể từ vị trí mới này cho vào 1 list chứa cặp giá trị về số nước đi và sắp xếp tăng dần.
-•	Cho quân mã đi theo các nước đi vừa sắp xếp.
-•	Nếu tìm được đường đi tiếp theo và phù hợp, đánh dấu số bước và ô đã đi và đếm số bước, sau đó tiếp tục đệ quy để tìm nước đi tiếp theo
-•	Nếu đi đến hết bàn cờ và thoả mãn điều kiện thì bài toán kết thúc và bài toán cho mã đi hết bàn cờ hoàn thành.
-•	Nếu gặp ngõ cụt, quay lại để thử hướng đi khác và tiếp tục lặp lại quá trình trên.
-•	Nếu giải được bài toán thì in ra output là nước đi quân mã, nếu không in ra màn hình " Không có nước đi thoả mãn".
-•	Nếu thuật toán không tối ưu : có thể không tìm được lời giải trong thời gian hợp lí / hoặc thất bại
+-	Quân mã bắt đầu tại ô (2, 3) - tức ô xuất phát sẽ có giá trị là 0
+-	Xét tất cả 8 hướng đi thoả mãn điều kiện của quân mã
+-	Thử các tất cả các nước đi có thể từ vị trí mới này cho vào 1 list chứa cặp giá trị về số nước đi và sắp xếp tăng dần.
+-	Cho quân mã đi theo các nước đi vừa sắp xếp.
+-	Nếu tìm được đường đi tiếp theo và phù hợp, đánh dấu số bước và ô đã đi và đếm số bước, sau đó tiếp tục đệ quy để tìm nước đi tiếp theo
+-	Nếu đi đến hết bàn cờ và thoả mãn điều kiện thì bài toán kết thúc và bài toán cho mã đi hết bàn cờ hoàn thành.
+-	Nếu gặp ngõ cụt, quay lại để thử hướng đi khác và tiếp tục lặp lại quá trình trên.
+-	Nếu giải được bài toán thì in ra output là nước đi quân mã, nếu không in ra màn hình " Không có nước đi thoả mãn".
+-	Nếu thuật toán không tối ưu : có thể không tìm được lời giải trong thời gian hợp lí / hoặc thất bại
 
 **Ví dụ 3**
 
 **Input:**
 ```
-3 0 0 ( Bàn cờ cỡ 3x3, quân mã bắt đầu ở ô (0, 0), )
+3 0 0 ( Bàn cờ cỡ 3x3, quân mã bắt đầu ở ô (0, 0) )
 ```
 
 **Output:**
@@ -159,7 +159,7 @@ Giải thích:
 ```
 
 **Giải thích:**
-•	Tạo bàn cờ cỡ 3x3
-•	Quân mã bắt đầu ở ô (0, 0) nhưng không có đủ các nước đi hợp lệ để tiếp tục. Khi quân mã di chuyển, nó sẽ gặp phải ngõ cụt và không thể tiếp tục đi qua các ô còn lại mà không quay lại ô đã đi qua, khi thử cả 8 hướng đi khác nhau.
-•	Từ đó, in ra màn hình " Không có nước đi thỏa mãn"
+-	Tạo bàn cờ cỡ 3x3
+-	Quân mã bắt đầu ở ô (0, 0) nhưng không có đủ các nước đi hợp lệ để tiếp tục. Khi quân mã di chuyển, nó sẽ gặp phải ngõ cụt và không thể tiếp tục đi qua các ô còn lại mà không quay lại ô đã đi qua, khi thử cả 8 hướng đi khác nhau.
+-	Từ đó, in ra màn hình " Không có nước đi thỏa mãn"
 
